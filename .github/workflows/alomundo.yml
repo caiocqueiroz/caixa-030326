@@ -9,3 +9,6 @@ jobs:
     steps:
       - name : saudacao ao usuario
         run: echo "Alo Mundo"
+      - run: ls -l
+      - uses: actions/checkout@v6
+      - run: ls -l
